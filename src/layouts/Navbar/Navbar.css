@@ -1,0 +1,36 @@
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* จัดเรียงให้ตรงกลางแนวตั้ง */
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.btn-primary {
+    padding: 10px 20px; /* เพิ่ม padding เพื่อขนาดที่ดีกว่า */
+    font-size: 16px; /* ปรับขนาดฟอนต์ */
+    min-width: 8rem; /* ตั้งค่าความกว้างขั้นต่ำ */
+    background-color: blue; /* เปลี่ยนสีนี้ตามต้องการ */
+    color: white; /* เปลี่ยนสีข้อความ */
+    border: none; /* เอาเส้นขอบออก */
+    border-radius: 5px; /* เพิ่มมุมโค้ง */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็น pointer */
+    display: flex; /* อนุญาตให้ใช้คุณสมบัติ flex */
+    align-items: center; /* จัดให้ข้อความอยู่ตรงกลางแนวตั้ง */
+    justify-content: center; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
+}
+
+.btn-outline-primary {
+    padding: 10px 20px; /* เพิ่ม padding เพื่อขนาดที่ดีกว่า */
+    font-size: 16px; /* ปรับขนาดฟอนต์ */
+    min-width: 120px; /* ตั้งค่าความกว้างขั้นต่ำ */
+    background-color: transparent; /* ทำให้โปร่งใส */
+    color: blue; /* เปลี่ยนสีข้อความ */
+    border: 2px solid blue; /* เพิ่มเส้นขอบ */
+    border-radius: 5px; /* เพิ่มมุมโค้ง */
+    cursor: pointer; /* เปลี่ยนเคอร์เซอร์เป็น pointer */
+    display: flex; /* อนุญาตให้ใช้คุณสมบัติ flex */
+    align-items: center; /* จัดให้ข้อความอยู่ตรงกลางแนวตั้ง */
+    justify-content: center; /* จัดให้ข้อความอยู่ตรงกลางแนวนอน */
+}

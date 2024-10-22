@@ -1,0 +1,33 @@
+#container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    border: 1px solid black;
+    margin: 10px auto;
+    width: fit-content;
+    border-radius: 5px;
+
+}
+
+#field {
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 10px;
+    background-image: url(../../../public/wood.jpg);
+    background-position: center;
+    height: 400px;
+    width: 700px;
+}
+
+#control {
+    margin: 10px;
+}
+
+#ball {
+    border: 1px solid green;
+    border-radius: 50%;
+    background-color: aliceblue;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
